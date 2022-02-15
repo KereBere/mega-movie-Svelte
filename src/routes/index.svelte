@@ -13,7 +13,7 @@
 				}
 			};
 		} 
-		 
+		 return "hehe"
 	}
 	
 </script>
