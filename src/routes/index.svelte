@@ -12,10 +12,8 @@
 					popular: data.results
 				}
 			};
-		} 
-		 return "hehe"
+		}
 	}
-	
 </script>
 
 <script>
@@ -23,10 +21,10 @@
 	import PopularMovies from '../components/PopularMovies.svelte';
 	import SearchMovies from '../components/SearchMovies.svelte';
 	export let popular;
-	export let title = "Popular Movies"
+	export let title = 'Popular Movies';
 	import { fly } from 'svelte/transition';
 </script>
 
 <!-- {JSON.stringify($session)} -->
 <SearchMovies />
-<PopularMovies {popular} {title} /> 
+<PopularMovies {popular} {title} />
